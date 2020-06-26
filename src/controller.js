@@ -1,5 +1,5 @@
 var Controller = function () {
-  this.state = new Array(8);
+  this.state = [];
   for (var i = 0; i < this.state.length; i++) {
     this.state[i] = 0x40;
   }
