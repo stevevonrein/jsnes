@@ -1,6 +1,6 @@
 var Controller = function () {
   this.state = [];
-  for (var i = 0; i < this.state.length; i++) {
+  for (var i = 0; i < 8; i++) {
     this.state[i] = 0x40;
   }
 };
